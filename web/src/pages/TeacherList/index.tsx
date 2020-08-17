@@ -1,5 +1,7 @@
-import React from 'react'
-import PageHeader from '../../components/PageHeader'
+import React from 'react';
+import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
+
 
 import './styles.css'
 
@@ -26,11 +28,13 @@ function TeacherList(){
       </PageHeader>
 
       <main>
-        <article className="teacher-item">
-          <header>
-            <img src="" alt=""/>
-          </header>
-        </article>
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      
       </main>
     </div>
   )
